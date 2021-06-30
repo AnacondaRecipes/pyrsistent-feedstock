@@ -16,10 +16,13 @@ requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - python
+    - python >=3.6
+    - pytest-runner
     - pip
+    - setuptools
+    - wheel
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -33,8 +36,9 @@ about:
   home: http://github.com/tobgu/pyrsistent/
   license: MIT
   license_family: MIT
-  license_file: LICENCE.mit
+  license_file: LICENSE.mit
   summary: Persistent/Functional/Immutable data structures
+  dev_url: http://github.com/tobgu/pyrsistent/
 
 extra:
   recipe-maintainers:
