@@ -39,6 +39,7 @@ about:
   license_file: LICENSE.mit
   summary: Persistent/Functional/Immutable data structures
   dev_url: http://github.com/tobgu/pyrsistent/
+  doc_url: https://github.com/tobgu/pyrsistent/blob/master/README.rst
 
 extra:
   recipe-maintainers:
