@@ -16,13 +16,13 @@ requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - python >=3.6
+    - python
     - pytest-runner
     - pip
     - setuptools
     - wheel
   run:
-    - python >=3.6
+    - python
 
 test:
   imports:
