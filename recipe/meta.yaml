@@ -17,7 +17,6 @@ requirements:
     - {{ compiler('c') }}
   host:
     - python
-    - pytest-runner
     - pip
     - setuptools
     - wheel
