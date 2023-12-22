@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: http://github.com/tobgu/pyrsistent
+  home: https://github.com/tobgu/pyrsistent
   license: MIT
   license_family: MIT
   license_file: LICENSE.mit
