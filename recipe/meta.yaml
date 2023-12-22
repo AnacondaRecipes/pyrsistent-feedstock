@@ -43,7 +43,7 @@ about:
     the sense that they are immutable.
     All methods on a data structure that would normally mutate it instead return a new copy of the structure containing
     the requested updates.
-  dev_url: http://github.com/tobgu/pyrsistent
+  dev_url: https://github.com/tobgu/pyrsistent
   doc_url: https://pyrsistent.readthedocs.io
 
 extra:
